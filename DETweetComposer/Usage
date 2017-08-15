@@ -1,0 +1,39 @@
+//DETweetComposer for Sina Weibo Usage
+//see in MMMasterViewController.m
+
+
+// #import "DETweetComposeViewController.h"
+/*
+    DETweetComposeViewControllerCompletionHandler completionHandler = ^(DETweetComposeViewControllerResult result) {
+        switch (result) {
+            case DETweetComposeViewControllerResultCancelled:
+                NSLog(@"Result: Cancelled");
+                break;
+                
+            case DETweetComposeViewControllerResultDone:
+                NSLog(@"Result: Sent");
+                break;
+            default:
+                break;
+        }
+        [self dismissModalViewControllerAnimated:YES];
+    };
+    
+    DETweetComposeViewController *tcvc = [[[DETweetComposeViewController alloc] init] autorelease];
+    tcvc.modalPresentationStyle = UIModalPresentationFormSheet;
+    self.modalPresentationStyle = UIModalPresentationCurrentContext;
+    tcvc.completionHandler = completionHandler;
+    
+    [tcvc addImage:[UIImage imageNamed:@"flower.jpeg"]];
+    [tcvc setInitialText:@"test"];
+    
+    [self presentModalViewController:tcvc animated:YES];
+    
+    for (UIView *v in tcvc.view.superview.subviews) {
+        if ([v isKindOfClass:[UIImageView class]]) {
+            UIImageView* formSheetImageView = (UIImageView*)v;
+            formSheetImageView.hidden = YES;
+        }
+    }
+    tcvc.view.superview.layer.shadowOpacity = 0.0;
+*/
